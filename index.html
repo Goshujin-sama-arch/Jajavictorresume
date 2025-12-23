@@ -11,71 +11,69 @@
       background-color: #f4f6f9;
       color: #333;
     }
-    .resume-section {
-      margin-bottom: 2rem;
-    }
+    .resume-section { margin-bottom: 2rem; }
     .header {
       background: linear-gradient(to right, #0d6efd, #6610f2);
       color: white;
-      padding: 2.5rem 1rem;
+      padding: 2.5rem 1rem 1.5rem 1rem;
       text-align: center;
-      padding-top: 1px;
-      margin-top: 0px;
     }
-    .header h1 {
-      font-size: 2.5rem;
-      font-weight: 700;
-    }
-    .contact-info {
-      font-size: 0.95rem;
-    }
+    .header h1 { font-size: 2.5rem; font-weight: 700; }
+    .contact-info { font-size: 0.95rem; }
     .section-title {
-      font-size: 1.2rem;
+      font-size: 1.25rem;
       font-weight: 600;
       color: #0d6efd;
       border-bottom: 2px solid #0d6efd;
       margin-bottom: 1rem;
     }
-    .custom-list {
-      padding-left: 1.2rem;
-    }
-    .custom-list li {
-      margin-bottom: 0.5rem;
-    }
+    .custom-list { padding-left: 1.2rem; }
+    .custom-list li { margin-bottom: 0.5rem; }
     .project-tag {
       background-color: #e7f1ff;
       border-left: 4px solid #0d6efd;
       padding: 0.5rem 1rem;
       margin-bottom: 0.75rem;
+      border-radius: 0.25rem;
     }
-    img {
-        border-radius: 100px;
-        height: 10%;
-        width: 40%;
-        margin-top: 2px;
-        padding-top: 2px;
-        
+    img.profile-pic {
+      border-radius: 50%;
+      height: 120px;
+      width: 120px;
+      object-fit: cover;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
+    .venture-card {
+      background-color: #ffffff;
+      border-radius: 0.75rem;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.1);
+    }
+    .venture-title { font-weight: 600; color: #0d6efd; }
   </style>
 </head>
 <body>
   <div class="header">
-      <img src="jajavictorbarisuka.jpg" alt="Jaja Victor Barisuka">
+    <img src="jajavictorbarisuka.jpg" alt="Jaja Victor Barisuka" class="profile-pic">
     <h1>JAJA VICTOR BARISUKA</h1>
-    <p class="contact-info">Rivers State, Nigeria | 09164460073 | <a href="mailto:victorjaja500@gmail.com" class="text-white text-decoration-underline">victorjaja500@gmail.com</a></p>
+    <p class="contact-info">Rivers State, Nigeria | 09164460073 | 
+      <a href="mailto:victorjaja500@gmail.com" class="text-white text-decoration-underline">victorjaja500@gmail.com</a>
+    </p>
   </div><br>
 
   <div class="container mt-4">
 
     <section class="resume-section">
       <div class="section-title">Professional Summary</div>
-      <p>Founder and Creator of Prothoughtinsight, a digital learning tech initiative. I am a highly focused and result-driven Front-End Developer with proven proficiency in HTML5, CSS3, and JavaScript, alongside Social Media Management and Content Writing. Experienced in building user-centered solutions, managing campaigns, and optimizing online visibility. Strong communicator, problem-solver, and fast learner who thrives in fast-paced environments.</p>
+      <p>Founder and Creator of <strong>ProThoughtInsight</strong>, a digital learning tech initiative, and <strong>SellHub</strong>, a regional classifieds platform. Highly focused Front-End Developer skilled in HTML, CSS, JavaScript, Social Media Management, and Content Writing. Experienced in building user-centered solutions, managing campaigns, and optimizing online visibility. Strong communicator, problem-solver, and fast learner thriving in fast-paced environments.</p>
     </section>
 
     <section class="resume-section">
       <div class="section-title">Education</div>
-      <p><strong>University of Calabar, Calabar, Cross River State</strong> – BSc. Computer Science <span class="text-muted">(2020 – 2025)</span></p>
-      <p>Relevant Coursework: Computer Programming, Database Management, Object-Oriented Programming, Data Analysis, Functions, Modules, Loops.</p>
+      <p><strong>University of Calabar, Calabar</strong> – BSc. Computer Science <span class="text-muted">(2020 – 2025)</span></p>
+      <p>Relevant Coursework: Programming, Database Management, OOP, Data Analysis, Functions, Modules, Loops.</p>
     </section>
 
     <section class="resume-section">
@@ -102,57 +100,55 @@
 
     <section class="resume-section">
       <div class="section-title">Professional Experience</div>
-      <p><strong>VG3 UNICAL DATABASE</strong> — <em>Data Entry Clerk</em></p>
+      <p><strong>VG3 UNICAL DATABASE</strong> — <em>Data Entry Clerk / Customer Service Rep</em></p>
       <ul class="custom-list">
         <li>Optimized database entries and improved data reliability.</li>
-        <li>Resolved system issues and enhanced data integrity.</li>
-      </ul>
-      <p><strong>VG3 UNICAL DATABASE</strong> — <em>Customer Service Rep</em></p>
-      <ul class="custom-list">
         <li>Managed inquiries, transactions, and customer records.</li>
-        <li>Ensured up-to-date knowledge of services and policies.</li>
       </ul>
       <p><strong>RAPCULTURE AFRICA CHASE 0.6</strong> — <em>Content Writer / Social Media Manager</em></p>
       <ul class="custom-list">
         <li>Wrote and edited high-impact content for online audiences.</li>
         <li>Executed social media strategies and ad campaigns.</li>
-        <li>Scheduled posts using management tools.</li>
       </ul>
       <p><strong>ARVYS TECH</strong> — <em>Front-End Developer</em></p>
       <ul class="custom-list">
         <li>Developed responsive user-friendly web applications.</li>
-        <li>Collaborated with backend teams to improve UX/UI.</li>
         <li>Maintained clean, scalable codebases with documentation.</li>
-        </ul>
-        <p><strong>SPACEHACK HACKATHON</strong> - <em>Front-end Developer (Team Project)</em></p>
-        <ul class="custom-list">
-        <li>Engineered a web-based platform for detecting and reporting disease trends using open-source health data.</li>
-        <li>Focused on frontend design and map APIs</li>
-        <li>Contributed to system architecture, ensuring real-time responsiveness and accuracy.
-</li>
       </ul>
     </section>
 
     <section class="resume-section">
-      <div class="section-title">Projects</div>
-      <div class="project-tag">Data Entry & Backup — Implemented accurate data entry and routine recovery procedures.</div>
-      <div class="project-tag">Content Calendar — Created monthly scheduling tools for social platforms.</div>
-      <div class="project-tag">Web Development — Built responsive sites using HTML, CSS, JavaScript.</div>
-      <div class="project-tag">Blog & Caption Writing — Produced articles and social captions with SEO focus.</div>
-      <div class="project-tag">Engagement Campaigns — Designed and executed digital campaigns and analytics reports.</div>
-      <div class="project-tag">Website Updates — Designed, Created, Modified and Maintained prothoughtinsight.name.ng.</div>
-      <div class="project-tag">Built a real-time disease surveillance system to monitor, track, and visualize outbreaks using HTML, CSS, Python, JavaScript, APIs, etc</div>
-      <div class="project-tag">Designed features such as data visualization/map dashboard, alert system, admin panel, etc</div>
-      <div class="project-tag">Collaborated with a cross-functional team to ideate, prototype, and deploy the solution within 48 hours</div>
+      <div class="section-title">Projects & Ventures</div>
+
+      <!-- ProThoughtInsight -->
+      <div class="venture-card">
+        <div class="venture-title">ProThoughtInsight - Static Hosting Platform</div>
+        <ul class="custom-list">
+          <li>Built a platform to host static websites easily with ZIP uploads and instant deployment.</li>
+          <li>Optimized the frontend UI with Bootstrap and responsive design.</li>
+          <li>Empowers users to manage and deploy their personal projects efficiently.</li>
+        </ul>
+      </div>
+
+      <!-- SellHub -->
+      <div class="venture-card">
+        <div class="venture-title">SellHub - Regional Classifieds Platform</div>
+        <ul class="custom-list">
+          <li>Launched Zaria-first marketplace connecting buyers and sellers locally.</li>
+          <li>Built Node.js backend with seller dashboard, subscription monetization, and ratings system.</li>
+          <li>Planned regional expansion to multiple cities, ensuring scalable infrastructure.</li>
+        </ul>
+      </div>
+
     </section>
 
     <section class="resume-section">
-      <div class="section-title">Certifications</div>
+      <div class="section-title">Certifications & Honors</div>
       <ul class="custom-list">
         <li>KEMS Computer College Certificate</li>
         <li>Rapculture Africa Scholarship</li>
         <li>Most Intellectual Male (CHASE 0.6)</li>
-        <li>Certificate Of Participation In NIGCOMSAT SPACEHACK 2025 In Cross River State</li>
+        <li>Certificate Of Participation In NIGCOMSAT SPACEHACK 2025</li>
       </ul>
     </section>
 
@@ -161,7 +157,3 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
-
-
